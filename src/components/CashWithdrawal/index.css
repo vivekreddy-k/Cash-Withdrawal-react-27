@@ -1,0 +1,171 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #150b3e;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 30px 10px 30px 10px;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .container-card {
+    width: 60%;
+    padding: 50px 30px 50px 30px;
+  }
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-first-char-container {
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .profile-first-char-container {
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+  }
+}
+
+.profile-first-char {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #7c3aed;
+}
+.profile-name {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #d4d2db;
+}
+@media screen and (min-width: 768px) {
+  .profile-name {
+    font-size: 30px;
+  }
+}
+/* balance container */
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.balance-heading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #585076;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-heading {
+    font-size: 30px;
+  }
+}
+
+.balance-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-number {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #c4c4c4;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .balance-number {
+    font-size: 30px;
+  }
+}
+
+.in-rupees {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .in-rupees {
+    font-size: 15px;
+    padding-top: 3px;
+  }
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdraw-heading {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+}
+@media screen and (min-width: 768px) {
+  .withdraw-heading {
+    font-size: 32px;
+  }
+}
+.withdraw-subtext {
+  font-size: 16px;
+  margin-top: 0xp;
+  padding-top: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #382f5a;
+}
+
+.denominations-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.denomination-item {
+  width: 50%;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 1200px) {
+  .denomination-item {
+    width: 20%;
+  }
+}
+.denomination-button {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  background-color: #382f5a;
+  width: 90%;
+  border: 1px solid #d4d2db;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
