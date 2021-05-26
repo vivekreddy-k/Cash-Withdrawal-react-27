@@ -1,4 +1,5 @@
-In this assignment let's build a **Cash Withdrawal** by applying the concepts we have learned till now.
+## LIVE DEMO :- <a href="">Cash Withdrawal </a>
+In this assignment let's build a **Cash Withdrawal** 
 
 ### Refer to images below:
 
@@ -48,16 +49,7 @@ The app must have the following functionalities
 
 </details>
 
-<details>
-<summary>Click to view the Implementation Files</summary>
 
-- Your task is to complete the implementation of
-  - `src/components/CashWithdrawal/index.js`
-  - `src/components/CashWithdrawal/index.css`
-  - `src/components/DenominationItem/index.js`
-  - `src/components/DenominationItem/index.css`
-
-</details>
 
 <details>
 <summary>Click to view the Components Structure</summary>
@@ -122,15 +114,4 @@ The app must have the following functionalities
 <br/>
 </details>
 
-#### Font-families
 
-- Roboto
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
